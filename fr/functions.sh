@@ -27,6 +27,13 @@ fi
 if [[ "$ETAPEQUOI" == "2" ]] ; then
 REPONSEQUOI1="$REPONSEQUOI"
 tusaisfairecategorie_total=`echo "$tusaisfairequoi" | grep "$REPONSEQUOI1" | sort | uniq | cut -d":" -f3 | wc -l`
+
+if [[ `echo "$tusaisfairequoi" | grep -o "$REPONSEQUOI1" | wc -l` == "0" ]]; then 
+say "Désolé reformule je n'ai pas saisie";
+ETAPEQUOI=$(( $ETAPEQUOI - 1 ))
+return;
+fi
+
 say "Que souhaites tu mieux maitriser parmi ces $tusaisfairecategorie_total sous-catégorie ?"
 tusaisfairecategorie_compteur="1"
 
@@ -41,9 +48,16 @@ fi
 
 if [[ "$ETAPEQUOI" == "3" ]] ; then
 REPONSEQUOI2="$REPONSEQUOI"
+tusaisfairecategorie_choixok1=`echo "$tusaisfairequoi" | grep "$REPONSEQUOI1" | grep "$REPONSEQUOI2" | sort | uniq | cut -d":" -f4`
+
+if [[ "$tusaisfairecategorie_choixok1" == "" ]]; then 
+say "Désolé reformule je n'ai pas saisie";
+ETAPEQUOI=$(( $ETAPEQUOI - 1 ))
+return;
+fi
+
 
 say "Il faut que tu me dises par exemple:"
-tusaisfairecategorie_choixok1=`echo "$tusaisfairequoi" | grep "$REPONSEQUOI1" | grep "$REPONSEQUOI2" | sort | uniq | cut -d":" -f4`
 if [[ "$tusaisfairecategorie_choixok1" =~ "Avec la commande HTTP et le port" ]]; then
 say "Avec la dommande HTTP $adresseip_jesais deux points $jv_pg_ui_port vous serrez directement sur l'interface graphique Jarvis"
 else
