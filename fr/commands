@@ -1,0 +1,12 @@
+*TU*SAI*FAIR*QUOI*==if [[ "$GOTOSORTIQUOI" == "Fin" ]]; then GOTOSORTIQUOI=""; commands="$(jv_get_commands)"; jv_handle_order "GOTOSORTI_QUOI"; return; else jv_pg_ct_tusaisfairequoi; fi
+>(*)==if [[ "$GOTOSORTIQUOI" == "Fin" ]]; then GOTOSORTIQUOI=""; commands="$(jv_get_commands)"; jv_handle_order "GOTOSORTI_QUOI"; return; else REPONSEQUOI="$order"; commands="$(jv_get_commands)"; jv_handle_order "Tu sais faire quoi"; return; fi
+
+GOTOSORTI_QUOI==say "Je suis sorti..."
+
+
+
+
+
+
+
+

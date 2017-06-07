@@ -1,0 +1,82 @@
+jarvis-FREE-sms : domotique : envoyer des sms : Envoie un sms
+jarvis-home-control : domotique : Contrôle la domotique de la maison : allume la télévision
+jarvis-minuterie : domotique : je lance une minuterie pour X temps : Lance la minuterie pour 2 minutes
+jarvis-temperature : domotique : Je donne la température : Quel est la température dans la salle à manger ?
+jarvis-testdebitadsl : domotique : J'annonce le débit ADSL : Quel est le débit ADSL ?
+jarvis-time : domotique : Je donne l'heure : Il est quelle heure ?
+jarvis-plug-PIR : domotique : pour me déclencher avec un detecteur infra-rouge : voir fichier de configuration 
+jarvis-arduino-json : domotique : Associe un ordre avec un module arduino : Quel est la température dans le salon ?
+jarvis-milight: domotique : Je contôle votre système Milight : Allume la lumière bleue du salon
+jarvis-milight-3.0 : domotique : Je contôle votre système Milight : Allume le salon
+jarvis-chacon : domotique : Je contôle votre système Chacon : allume le bar
+jarvis-CEC : domotique : Je contôle votre système CEC : Allume la télé
+jarvis-x10 : domotique : Je contôle votre système X10 : Allume la télé
+jarvis-hue: domotique : Je contôle votre système HUE : Allume le Salon
+jarvis-blink1 : domotique : Je controle la lumière de ma clef USB Blink1 : regle led avec la couleur bleue
+jarvis-jeedom : domotique : Je contôle votre système domotique Jeedom par ma voix : Allume le Salon
+jarvis-light-lifx : domotique : Je contôle votre système lumineux Lifx : J'aimerais bien avoir une lumière bleu mais seulement à 60 pourcents
+jarvis-fr_domotique_433Mhz : domotique : Je contôle votre système domotique en 433MHZ : Allume la lampe du salon
+jarvis-wake-sleep-OnLan : domotique : j'allume ou j'éteinds un serveur Wlan : Allume le serveur s'il te plait
+jarvis-domogeek : domotique : Intégration de domogeek : quel est le EJP maintenant
+jarvis-cafe : domotique ; cuisine : Je sais faire le café : Fais moi un café d'une tasse
+
+jarvis-thermomix : cuisine : recevoir la dernière recette thermomix France : Quel est la recette thermomix du jour ?
+jarvis-fruitsetlegumessaison : cuisine : je sais quels sont les fruits et légumes de saison : quels sont les fruits ou légumes de saison ou c'est quand la saison des fraises
+jarvis-liste-des-courses : cuisine : préparer une liste de courses pour la journée et l'envoyer par email ou sms : Ajoute du beurre à la liste des courses ?
+
+jarvis-homeopathie : santé : quel traitement homéopatique pour tel problème : Quel traitement homéopatique pour les aphtes
+jarvis-menstruations : santé : je peux vous dire quel est le meilleur moment pour avoir un bébé ou pour l'éviter : C'est quand mes prochaines règles ou puis-je faire l'amour ?
+jarvis-pourquoi-jaimal : santé : je dis pourquoi on a mal à tel endroit : Pourquoi j'ai mal au cou ?
+
+jarvis-alsamixer : réglage : Régler le volume et le micro : Jarvis Baisse le volume ou baisse le micro ?
+jarvis-nuit-hp-moinfort : réglage : C'est automatique je règle mon volume en fonction des horaires jour et nuit 
+
+jarvis-blagues : divertissement : Raconte des blagues : Racontes une blague
+jarvis-calendar : divertissement : j'anonce les RDV gmails
+jarvis-cestquand : divertissement : j'annonce les prochains anniversaires : C'est quand l'anniversaire de Marc ?
+jarvis-ephemeride : divertissement : j'annonce la fêtes du jour : Quelle est la fête du jour ?
+jarvis-lacitation : divertissement : La citation positive du jour : Sort moi une citation du jour
+jarvis-leMonde : divertissement : Le journal  : Quels sont les actualités aujourd'hui ?
+jarvis-magie-chiffres : divertissement : je sais faire des tours de magie : Fais moi un tour de magie ?
+jarvis-math : divertissement : je sais faire des calculs mathématique ! Calcul 26 fois 57 ?
+jarvis-wikipedia : divertissement : je suis un dictionnaire : donne la définition de docteur
+jarvis-z-turing : divertissement : Je converse avec vous de plusieurs manières : On discute ?
+jarvis-dropbox : divertissement : Permet de charger ou d'envoyer un fichier vers Dropbox : Upload le fichier d'exemple sur dropbox
+jarvis-email-sender : divertissement : permet d'envoyer un Email avec si on veut une pièce jointe  : Envoies le mail d'exemple
+jarvis-sncb : divertissement : Je donne des informations sur les horaires des trains du réseau ferroviaire belge : Donne-moi les horaires de train vers Bruxelles-Nord 
+jarvis-plugin-ai: divertissement : j'utilise l'intéligence cleverbot pour converser avec vous : Raconte-moi une blague
+jarvis-citymapper : divertissement : Je donne le temps qu'il faut pour aller d'un endroit à l'autre en voiture : temps de trajet vers tel déstination
+jarvis-google-map-traffic : divertissement : Indique si le trafic est bon pour aller à votre boulot : Trafic
+
+jarvis-lunesoleil : météo : Je sais quel quand est-ce la prochaine pleine lune : c'est quand la prochaine pleine lune ?
+jarvis-weather-wunderground-fr : météo : je donne la météo : quel est la météo ?
+jarvis-air-quality-france : météo : Savoir la pollution de l'air : Quel est la qualité de l'air
+
+jarvis-radio : audio : Je diffuse de la radio : lance la radio skyrock
+jarvis-radio-tv : audio : Je diffuse de la radio ou on regarde la TV 
+jarvis-bruitages : audio : Je sais faire des bruitages divers : Fait le bruit du chien
+jarvis-youtube-player : audio : je vais recherche la musique de Youtube
+jarvis-deezer : audio : je peux enregistrer des playlistes et les jouer : Lance la playlist choisie
+jarvis-music-player : audio : Je vous de la musique : play music
+jarvis-rxv : audio : je contrôle votre amplificateur audio YAMAHA : monte le son
+
+jarvis-picamera : vidéo : utilise la caméra du raspberry pour prendre des photos : Prends une photo de test
+jarvis-telepresence : vidéo : lance une commande de vidéo surveillance : voir le fichier readme.txt
+jarvis-camera : vidéo : Utilise la caméra du port USB pour prendre une photo ou une vidéo : Prends une photo de test
+jarvis-tenvis :  vidéo : commande la surveillance vidéo de votre caméra Tenvis : Active la surveillance
+jarvis-appear-in : vidéo ; Graphique : vidéoconférences à partir d’un simple navigateur : ouvre une conférence
+jarvis-progtv : vidéo : donne le programme télé sur la unepermet de connaitre le programme télé de ce soir ou mainteant : donne le programme télé sur la une 
+fr_liveboxtv : vidéo : contrôle votre box télé orange : voir readme.txt
+jarvis-freeboxplayer : vidéo : contrôle votre Freebox : Affiche TF1
+jarvis-kodi : domotique ; vidéo : contrôle votre syteme Kodi : KODI Up
+
+jarvis-ui : réglage : utiliser jarvis Avec la commande HTTP et JSON : trop difficile à décrire, veuillez consulter read.me du ce plugin
+jarvis-api : réglage : utiliser jarvis depuis internet avec interface graphique: Avec la commande HTTP et le port
+jarvis-tusaisfairequoi : réglage : Aide à l'utilisation de jarvis : tu sais faire quoi ?
+jarvis-siri : réglage : Pilotez-moi d'un téléphone Iphone : dire sur son téléphone l'une des commandes des plugins installés
+jarvis-systemd-startup : réglage : permet de me redémarer : Se fait tout seul après une coupure de courant
+jarvis-crontab : réglage : permet d'utiliser plus facilement la fonction Cron qui va vous permettre d’exécuter automatiquement des commandes Jarvis à une date et une heure spécifiées : Voir le fichier read.me
+
+
+jarvis-face : Graphique : J'anime Jarvis en fonction de mes commandes : tout se fait automatiquement
+jarvis-console : Graphique : Plugin pour JARVIS permettant d’afficher la console après la mise en veille du port HDMI : reveille toi
