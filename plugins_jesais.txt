@@ -1,4 +1,5 @@
 jarvis-FREE-sms : domotique : envoyer des sms : Envoie un sms
+jarvis-GSM-TC35 : domotique : je sais envoyer des SMS avec le module GSM TC35 : Envoies un SMS à Jane.
 jarvis-home-control : domotique : Contrôle la domotique de la maison : allume la télévision
 jarvis-minuterie : domotique : je lance une minuterie pour X temps : Lance la minuterie pour 2 minutes
 jarvis-temperature : domotique : Je donne la température : Quel est la température dans la salle à manger ?
@@ -27,6 +28,7 @@ jarvis-liste-des-courses : cuisine : préparer une liste de courses pour la jour
 jarvis-homeopathie : santé : quel traitement homéopatique pour tel problème : Quel traitement homéopatique pour les aphtes
 jarvis-menstruations : santé : je peux vous dire quel est le meilleur moment pour avoir un bébé ou pour l'éviter : C'est quand mes prochaines règles ou puis-je faire l'amour ?
 jarvis-pourquoi-jaimal : santé : je dis pourquoi on a mal à tel endroit : Pourquoi j'ai mal au cou ?
+jarvis-pucetique : santé : je vous rappelle le prochain traitement anti puce ou tique de votre animal de compagnie. : prochain traitement anti-puce ?
 
 jarvis-alsamixer : réglage : Régler le volume et le micro : Jarvis Baisse le volume ou baisse le micro ?
 jarvis-nuit-hp-moinfort : réglage : C'est automatique je règle mon volume en fonction des horaires jour et nuit 
@@ -47,10 +49,15 @@ jarvis-sncb : divertissement : Je donne des informations sur les horaires des tr
 jarvis-plugin-ai: divertissement : j'utilise l'intéligence cleverbot pour converser avec vous : Raconte-moi une blague
 jarvis-citymapper : divertissement : Je donne le temps qu'il faut pour aller d'un endroit à l'autre en voiture : temps de trajet vers tel déstination
 jarvis-google-map-traffic : divertissement : Indique si le trafic est bon pour aller à votre boulot : Trafic
+jarvis-test-personnalite : divertissement : Je peux vous faire un test de personnalité : Test de personalité
+jarvis-test-personnalite2 : divertissement : Je peux vous faire un autre test de personnalité : Test de personnalité numéro 2
+jarvis-4accordstolteques : divertissement : Je rappel les 4 accords toltèques du livre : Rappelle moi les 4 accords toltèques
 
-jarvis-lunesoleil : météo : Je sais quel quand est-ce la prochaine pleine lune : c'est quand la prochaine pleine lune ?
+
+jarvis-lunesoleil : météo : Je sais quand arrive la prochaine pleine lune : c'est quand la prochaine pleine lune ?
 jarvis-weather-wunderground-fr : météo : je donne la météo : quel est la météo ?
 jarvis-air-quality-france : météo : Savoir la pollution de l'air : Quel est la qualité de l'air
+
 
 jarvis-radio : audio : Je diffuse de la radio : lance la radio skyrock
 jarvis-radio-tv : audio : Je diffuse de la radio ou on regarde la TV 
