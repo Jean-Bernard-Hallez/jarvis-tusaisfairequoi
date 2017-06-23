@@ -29,6 +29,11 @@ REPONSEQUOI1="$REPONSEQUOI"
 tusaisfairecategorie_total=`echo "$tusaisfairequoi" | grep "$REPONSEQUOI1" | sort | uniq | cut -d":" -f3 | wc -l`
 
 if [[ `echo "$tusaisfairequoi" | grep -o "$REPONSEQUOI1" | wc -l` == "0" ]]; then 
+REPONSEQUOI1=`echo "$REPONSEQUOI" | sed 's/.* //'`
+tusaisfairecategorie_total=`echo "$tusaisfairequoi" | grep "$REPONSEQUOI1" | sort | uniq | cut -d":" -f3 | wc -l`
+fi
+
+if [[ `echo "$tusaisfairequoi" | grep -o "$REPONSEQUOI1" | wc -l` == "0" ]]; then 
 say "Désolé reformule je n'ai pas saisie";
 ETAPEQUOI=$(( $ETAPEQUOI - 1 ))
 return;
@@ -49,6 +54,11 @@ fi
 if [[ "$ETAPEQUOI" == "3" ]] ; then
 REPONSEQUOI2="$REPONSEQUOI"
 tusaisfairecategorie_choixok1=`echo "$tusaisfairequoi" | grep "$REPONSEQUOI1" | grep "$REPONSEQUOI2" | sort | uniq | cut -d":" -f4`
+
+if [[ "$tusaisfairecategorie_choixok1" == "" ]]; then 
+REPONSEQUOI2=`echo "$REPONSEQUOI" | sed 's/.* //'`
+tusaisfairecategorie_choixok1=`echo "$tusaisfairequoi" | grep "$REPONSEQUOI1" | grep "$REPONSEQUOI2" | sort | uniq | cut -d":" -f4`
+fi
 
 if [[ "$tusaisfairecategorie_choixok1" == "" ]]; then 
 say "Désolé reformule je n'ai pas saisie";
