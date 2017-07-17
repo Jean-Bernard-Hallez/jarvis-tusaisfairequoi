@@ -25,6 +25,7 @@ jarvis-thermomix : cuisine : recevoir la dernière recette thermomix France : Qu
 jarvis-fruitsetlegumessaison : cuisine : je sais quels sont les fruits et légumes de saison : quels sont les fruits ou légumes de saison ou c'est quand la saison des fraises
 jarvis-liste-des-courses : cuisine : préparer une liste de courses pour la journée et l'envoyer par email ou sms : Ajoute du beurre à la liste des courses ?
 
+
 jarvis-homeopathie : santé : quel traitement homéopatique pour tel problème : Quel traitement homéopatique pour les aphtes
 jarvis-menstruations : santé : je peux vous dire quel est le meilleur moment pour avoir un bébé ou pour l'éviter : C'est quand mes prochaines règles ou puis-je faire l'amour ?
 jarvis-pourquoi-jaimal : santé : je dis pourquoi on a mal à tel endroit : Pourquoi j'ai mal au cou ?
@@ -36,6 +37,7 @@ jarvis-nuit-hp-moinfort : réglage : C'est automatique je règle mon volume en f
 jarvis-blagues : divertissement : Raconte des blagues : Racontes une blague
 jarvis-calendar : divertissement : j'anonce les RDV gmails
 jarvis-cestquand : divertissement : j'annonce les prochains anniversaires : C'est quand l'anniversaire de Marc ?
+jarvis-mes-prets : divertissement : je mémorise ce que tu prêtes au gens pour te refaire y penser si tu l'oublies. : ajoute la clé à mollette à mes prêts
 jarvis-ephemeride : divertissement : j'annonce la fêtes du jour : Quelle est la fête du jour ?
 jarvis-lacitation : divertissement : La citation positive du jour : Sort moi une citation du jour
 jarvis-leMonde : divertissement : Le journal  : Quels sont les actualités aujourd'hui ?
