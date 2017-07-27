@@ -54,7 +54,7 @@ jarvis-google-map-traffic : divertissement : Indique si le trafic est bon pour a
 jarvis-test-personnalite : divertissement : Je peux vous faire un test de personnalité : Test de personalité
 jarvis-test-personnalite2 : divertissement : Je peux vous faire un autre test de personnalité : Test de personnalité numéro 2
 jarvis-4accordstolteques : divertissement : Je rappel les 4 accords toltèques du livre : Rappelle moi les 4 accords toltèques
-
+jarvis-emulstation : divertissement : permet d'accéder à toutes vos roms et emulateurs en un seul endroit : Lancer une rom spécifique
 
 jarvis-lunesoleil : météo : Je sais quand arrive la prochaine pleine lune : c'est quand la prochaine pleine lune ?
 jarvis-weather-wunderground-fr : météo : je donne la météo : quel est la météo ?
