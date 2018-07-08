@@ -69,7 +69,7 @@ jarvis-deezer : audio : je peux enregistrer des playlistes et les jouer : Lance 
 jarvis-music-player : audio : Je vous de la musique : play music
 jarvis-rxv : audio : je contrôle votre amplificateur audio YAMAHA : monte le son
 
-jarvis-picamera : vidéo : utilise la caméra du raspberry pour prendre des photos : Prends une photo de test
+
 jarvis-telepresence : vidéo : lance une commande de vidéo surveillance : voir le fichier readme.txt
 jarvis-camera : vidéo : Utilise la caméra du port USB pour prendre une photo ou une vidéo : Prends une photo de test
 jarvis-tenvis :  vidéo : commande la surveillance vidéo de votre caméra Tenvis : Active la surveillance
